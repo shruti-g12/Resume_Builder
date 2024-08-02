@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hover-content {
+  font-size: 20px;
+  color: black;
+}
+
+.adjustButton1 {
+  position: absolute;
+  bottom: 250px;
+  left:150px;
+  text-decoration: none;
+  
+}
+.adjustButton2 {
+  position: absolute;
+  bottom: 250px;
+  left:410px;
+  text-decoration: none;
+}
+.adjustButton3 {
+  position: absolute;
+  bottom: 250px;
+  left:670px;
+  text-decoration: none;
+}
+.adjustButton4 {
+  position: absolute;
+  bottom: 250px;
+  left:930px;
+  text-decoration: none;
+}
+.adjustButton1:hover{
+  background-color: cyan; /* Background color when hovered */
+  height: 50px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 25px;
+}
+.adjustButton2:hover{
+  background-color: cyan; /* Background color when hovered */
+  height: 50px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.adjustButton3:hover{
+  background-color: cyan; /* Background color when hovered */
+  height: 50px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.adjustButton4:hover{
+  background-color: cyan; /* Background color when hovered */
+  height: 50px;
+  width: 180px;
+  padding: 10px;
+  border-radius: 25px;
+}
+/* Templete.css */
+.template-card {
+  border: 3px solid black;
+  border-radius: 20px;
+  height: 400px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.template-card img {
+  height: 340px;
+  width: 220px;
+}
+
+@media (max-width: 576px) {
+  .template-card {
+    height: auto;
+    width: 100%;
+  }
+
+  .template-card img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.adjustButton {
+  margin-bottom: 10px;
+}
+.temp:hover{
+  font-size: 30px;
+  background-color:lightcyan;
+  border-radius: 44px;
+  padding: 5px;
+}
+/* Hide the toggler button by default on larger screens */
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+}
